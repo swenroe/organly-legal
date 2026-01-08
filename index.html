@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Politique de confidentialité — Extension Chrome Organly (BETA)</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.55}
+    h1{font-size:24px;margin:0 0 12px}
+    h2{font-size:16px;margin:22px 0 8px}
+    ul{margin:8px 0 0 18px}
+    .muted{color:#666;font-size:14px}
+    .card{border:1px solid #e5e7eb;border-radius:12px;padding:14px 16px;background:#fafafa}
+    code{background:#f1f5f9;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <h1>Politique de confidentialité — Extension Chrome Organly (BETA)</h1>
+  <p class="muted">Dernière mise à jour : 2026-01-08</p>
+
+  <div class="card">
+    <p><strong>Résumé :</strong> l’extension permet de capturer et annoter une capture d’écran, puis de créer une tâche Organly avec la capture en pièce jointe. Elle inclut aussi un module de saisie de temps.</p>
+    <p><strong>Aucun tracking / publicité :</strong> aucune collecte de données à des fins marketing.</p>
+  </div>
+
+  <h2>Données traitées</h2>
+  <ul>
+    <li><strong>Captures d’écran</strong> : uniquement lorsque l’utilisateur déclenche une capture.</li>
+    <li><strong>Données saisies</strong> : titre, description, tags, échéance optionnelle, informations de saisie de temps.</li>
+    <li><strong>Authentification</strong> : jeton OAuth (access token) nécessaire pour appeler l’API Organly.</li>
+  </ul>
+
+  <h2>Stockage</h2>
+  <ul>
+    <li>Stockage local dans le navigateur via <code>chrome.storage.local</code> : jeton OAuth, préférences, état du timer, brouillons.</li>
+    <li>Aucune base de tracking externe n’est utilisée.</li>
+  </ul>
+
+  <h2>Partage et transfert</h2>
+  <ul>
+    <li>Les données (tâches, captures, entrées de temps) sont envoyées <strong>uniquement à Organly</strong> et <strong>uniquement après validation</strong> par l’utilisateur.</li>
+    <li><strong>Aucune vente</strong> de données. Aucun partage à des tiers à des fins publicitaires.</li>
+  </ul>
+
+  <h2>Analytics / Tracking</h2>
+  <ul>
+    <li><strong>Aucun</strong>.</li>
+  </ul>
+
+  <h2>Sécurité</h2>
+  <ul>
+    <li>L’extension utilise OAuth (Authorization Code + PKCE) pour se connecter à Organly.</li>
+    <li>Aucun mot de passe Organly n’est stocké par l’extension.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Support : <strong>support@organly.io</strong></p>
+</body>
+</html>
